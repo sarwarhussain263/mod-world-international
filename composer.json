@@ -1,23 +1,20 @@
 {
-    "name": "Mod-World-international",
-    "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "Sarwar Hussain",
-            "email": "sarwarhussain263@gmail.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url":  "https://packages.drupal.org/8"
-        },
-        
-    ],
-    "extra": {
-        
-    },
-    "require": {
-        "composer/installers": "^1.0.20"
-    }
+	"name": "Mod-World-international",
+	"minimum-stability": "dev",
+	"authors": [{
+		"name": "Sarwar Hussain",
+		"email": "sarwarhussain263@gmail.com"
+	}],
+	"repositories": [{
+			"type": "composer",
+			"url": "https://packages.drupal.org/8"
+		}
+
+	],
+	"extra": {
+
+	},
+	"require": {
+		"composer/installers": "^1.0.20"
+	}
 }
