@@ -1,13 +1,3 @@
-/**
-* Filterizr is a jQuery plugin that sorts, shuffles and applies stunning filters over
-* responsive galleries using CSS3 transitions and custom CSS effects.
-*
-* @author Yiotis Kaltsikis
-* @see {@link http://yiotis.net/filterizr}
-* @version 1.2.1
-* @license MIT License
-*/
-
 (function(global, $) {
 
     'use strict';
@@ -15,10 +5,6 @@
     //Make sure jQuery exists
     if (!$) throw new Error('Filterizr requires jQuery to work.');
 
-    /**
-    * Modified version of Jake Gordon's Bin Packing algorithm used for Filterizr's 'packed' layout
-    * @see {@link https://github.com/jakesgordon/bin-packing}
-    */
     var Packer = function(w) {
         this.init(w);
     };
@@ -748,12 +734,6 @@
             };
         },
 
-        /**
-        * Modified version of Jeffery To's array intersection method
-        * @see {@link http://www.falsepositives.com/index.php/2009/12/01/javascript-function-to-get-the-intersect-of-2-arrays/}
-        * @return {Object[]} a disjoint array containing the elements of the first array not found in the second
-        * @private
-        */
         _getArrayOfUniqueItems: function(arr1, arr2) {
             var r = [], o = {}, l = arr2.length, i, v;
             for (i = 0; i < l; i++) {
@@ -769,13 +749,6 @@
             return r;
         },
 
-        /**
-        * Brahn's take on CMS's solution to calling the window.resize event at set
-        * intervals in multiple places in the code using a Java-like UUID with a regexp
-        * @see {@link http://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed}
-        * @return {function} which calls the callback or just clears the timer
-        * @private
-        */
         _delayEvent: (function () {
             var self = this, timers = {};
             return function (callback, ms, uniqueId) {
