@@ -237,6 +237,15 @@ top: 9%;
     -moz-background-size: cover;
     min-height: 700px;		
 }
+.banner2{
+    background: url(../images/pic3.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 700px;		
+}
 .banner-info {
     margin: 15em auto 0;
     text-align: center;
@@ -471,7 +480,7 @@ top: 9%;
     margin-bottom: 0;
 }
 .header-bottom {
-    padding: 20px 0;
+    padding: 10px 0;
 }
 /*-- //header-bottom --*/
 /*-- login --*/
