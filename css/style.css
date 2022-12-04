@@ -3173,4 +3173,28 @@ li.resp-tab-item.bath6 {
 		background: url(../images/light.png) no-repeat 10px 3px;
 		background-size: 53% !important;
 	}
+
+
+	.resp-sub-tab-item {
+		margin: 0px 0px;
+		padding: 21px 20px;
+		text-decoration: none;
+		color: #A9A8A8;
+		cursor: pointer;
+		font-size: 17px;
+		text-transform: uppercase;
+		border-right: 2px solid #6F6F6F;
+		display: block;
+		list-style: none;
+		outline: none;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+		text-transform: Capitalize;
+		font-weight: 100;
+		text-align: right;
+	}
+	
 }
