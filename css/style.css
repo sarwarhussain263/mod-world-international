@@ -290,7 +290,7 @@ a.callbacks_nav.callbacks2_nav.next {
 	min-height: 700px;
 }
 
-.banner2 {
+.banner3 {
 	background: url(../images/pic3.jpg) no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -1862,7 +1862,8 @@ li.resp-tab-item.bath6 {
 	}
 
 	.banner1,
-	.banner2 {
+	.banner2,
+	.banner3 {
 		min-height: 473px;
 	}
 
@@ -2222,7 +2223,8 @@ li.resp-tab-item.bath6 {
 	}
 
 	.banner1,
-	.banner2 {
+	.banner2,
+	.banner3 {
 		min-height: 352px;
 	}
 
@@ -2616,7 +2618,8 @@ li.resp-tab-item.bath6 {
 	}
 
 	.banner1,
-	.banner2 {
+	.banner2,
+	.banner3 {
 		min-height: 293px;
 	}
 
@@ -3020,7 +3023,8 @@ li.resp-tab-item.bath6 {
 	}
 
 	.banner1,
-	.banner2 {
+	.banner2,
+	.banner3 {
 		min-height: 264px;
 	}
 
